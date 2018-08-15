@@ -18,8 +18,6 @@
 		645B8B9A1FE4B59D00FDE401 /* GrayTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B8B991FE4B59D00FDE401 /* GrayTableController.m */; };
 		645B8B9E1FE4B8EE00FDE401 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B8B9D1FE4B8EE00FDE401 /* CustomCell.m */; };
 		645B8BA01FE4B95C00FDE401 /* ManageConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B8B9F1FE4B95C00FDE401 /* ManageConfigurationController.m */; };
-		646156341FE06419008FD730 /* libjansson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646156331FE06419008FD730 /* libjansson.a */; };
-		646156361FE0648E008FD730 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646156351FE0648E008FD730 /* libcurl.a */; };
 		64E1630B1FDEB137003EEC24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1630A1FDEB137003EEC24 /* AppDelegate.m */; };
 		64E1630E1FDEB137003EEC24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1630D1FDEB137003EEC24 /* ViewController.m */; };
 		64E163111FDEB137003EEC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E1630F1FDEB137003EEC24 /* Main.storyboard */; };
@@ -28,6 +26,10 @@
 		64E163191FDEB137003EEC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E163181FDEB137003EEC24 /* main.m */; };
 		64FC35021FEAE0FA00197F5E /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FC35011FEAE0FA00197F5E /* love@2x.png */; };
 		64FC35041FEAF56700197F5E /* Disclaimer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 64FC35031FEAF56700197F5E /* Disclaimer.txt */; };
+		75944A442005AEAA00124354 /* minerd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75944A432005AEAA00124354 /* minerd.a */; };
+		75944A482005AF3900124354 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75944A452005AF3700124354 /* libcrypto.a */; };
+		75944A492005AF3900124354 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75944A462005AF3800124354 /* libcurl.a */; };
+		75944A4A2005AF3900124354 /* libjansson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75944A472005AF3800124354 /* libjansson.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +69,6 @@
 		645B8B991FE4B59D00FDE401 /* GrayTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrayTableController.m; sourceTree = "<group>"; };
 		645B8B9D1FE4B8EE00FDE401 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		645B8B9F1FE4B95C00FDE401 /* ManageConfigurationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageConfigurationController.m; sourceTree = "<group>"; };
-		646156331FE06419008FD730 /* libjansson.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjansson.a; sourceTree = "<group>"; };
-		646156351FE0648E008FD730 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
 		64A634CA1FE4C252007D5443 /* ManageConfigurationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageConfigurationController.h; sourceTree = "<group>"; };
 		64A635E21FE552A8007D5443 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E163061FDEB137003EEC24 /* MobileMiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +84,10 @@
 		64E163291FDEB138003EEC24 /* MobileMinerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMinerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FC35011FEAE0FA00197F5E /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
 		64FC35031FEAF56700197F5E /* Disclaimer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Disclaimer.txt; sourceTree = "<group>"; };
+		75944A432005AEAA00124354 /* minerd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = minerd.a; sourceTree = "<group>"; };
+		75944A452005AF3700124354 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		75944A462005AF3800124354 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		75944A472005AF3800124354 /* libjansson.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjansson.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646156341FE06419008FD730 /* libjansson.a in Frameworks */,
-				646156361FE0648E008FD730 /* libcurl.a in Frameworks */,
+				75944A482005AF3900124354 /* libcrypto.a in Frameworks */,
+				75944A442005AEAA00124354 /* minerd.a in Frameworks */,
+				75944A4A2005AF3900124354 /* libjansson.a in Frameworks */,
+				75944A492005AF3900124354 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +186,10 @@
 				64A635E21FE552A8007D5443 /* Info.plist */,
 				64E1630F1FDEB137003EEC24 /* Main.storyboard */,
 				64E163141FDEB137003EEC24 /* LaunchScreen.storyboard */,
-				646156351FE0648E008FD730 /* libcurl.a */,
-				646156331FE06419008FD730 /* libjansson.a */,
+				75944A452005AF3700124354 /* libcrypto.a */,
+				75944A462005AF3800124354 /* libcurl.a */,
+				75944A472005AF3800124354 /* libjansson.a */,
+				75944A432005AEAA00124354 /* minerd.a */,
 				645B8B9B1FE4B6A300FDE401 /* Supporting Files */,
 			);
 			path = MobileMiner;
@@ -497,10 +505,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = 9KVY9PQ357;
+				DEVELOPMENT_TEAM = J2WMTXF4JR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MobileMiner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -508,13 +517,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MobileMiner",
+					"$(PROJECT_DIR)",
 				);
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-all_load",
 					"-lcrypto",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.limneos.MobileMiner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanfeng.mobileminer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
 			};
@@ -525,10 +537,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_POSTPROCESSING = YES;
-				DEVELOPMENT_TEAM = 9KVY9PQ357;
+				DEVELOPMENT_TEAM = J2WMTXF4JR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MobileMiner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -536,14 +550,17 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MobileMiner",
+					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-all_load",
 					"-lcrypto",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.limneos.MobileMiner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanfeng.mobileminer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
 			};
