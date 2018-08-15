@@ -1,6 +1,8 @@
 # iPhone Mobile Miner
 CPU Miner for ARM64 iOS Devices
 
+**Only support Cryptonight algorithm mining**
+
 This is a clone fork of Lucas Jones's cpuminer-multi, ( https://github.com/lucasjones/cpuminer-multi ) compiled for arm64 iOS devices. Credits go to the initial developers and contributors.
 
 I clone the project to my local, I try to run it in Xcode, but it didn't work. After resolve the error, I push the code, now you can download the code, open the project in Xcode and run directly.
